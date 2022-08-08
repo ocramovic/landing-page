@@ -95,6 +95,7 @@ li {
   color: #F9FAF8;
   font-weight: 700;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .second {
@@ -107,13 +108,14 @@ li {
 .info {
   font-size: 36px;
   font-weight: 700;
-  margin: 15px;
+  margin-top: 50px;
 }
 
 .info-content {
   display: flex;
   padding: 10px;
-  gap: 30px;
+  gap: 40px;
+  margin-bottom: 100px;
 }
 
 .info-pic {
@@ -129,9 +131,63 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .pic-subtext {
   font-size: 18px;
   max-width: 200px;
+  text-align: center;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 100px 360px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.person {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.fourth {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 100px 200px;
+  border-radius: 5px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  color: #F9FAF8;
+}
+
+.action p {
+  font-size: 18px;
+}
+
+.action-button {
+  background-color: #3882F6;
+  padding: 7px 25px;
+  border-radius: 7px;
+  border: solid 2px;
+  border-color: #F9FAF8;
+  color: #F9FAF8;
+  font-weight: 700;
+  cursor: pointer;
 }
