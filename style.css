@@ -191,3 +191,13 @@ li {
   font-weight: 700;
   cursor: pointer;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-size: 18px;
+  background-color: #1F2937;
+  color: #E5E7EB;
+}
